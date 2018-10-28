@@ -75,10 +75,10 @@ def plot_validation(train_scores, test_scores,param_range,cl_name,param_name):
     
     
 def data():
-    X_train=np.genfromtxt('X_train.txt',dtype='float')
-    X_test=np.genfromtxt('X_test.txt',dtype='float')
-    y_train=np.genfromtxt('y_train.txt',dtype='float')
-    y_test=np.genfromtxt('y_test.txt',dtype='float')
+    X_train=np.genfromtxt('data/X_train.txt',dtype='float')
+    X_test=np.genfromtxt('data/X_test.txt',dtype='float')
+    y_train=np.genfromtxt('data/y_train.txt',dtype='float')
+    y_test=np.genfromtxt('data/y_test.txt',dtype='float')
     scaler = StandardScaler()
     scaler = scaler.fit(X_train)
     X_train = scaler.transform(X_train)
