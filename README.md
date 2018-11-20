@@ -7,7 +7,7 @@ and available via the University of California Irvine
 [Machine learning repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones).
 
 
-## Nerual Network Classifier
+## Neural Network Classifier
 To find the optimal classifier for the neural network, 2 parameters were tuned, the alpha and the hidden_layer_sizes, 
 using cross-k validation (3 fold was used) and plotting the curve.
 
