@@ -81,10 +81,7 @@ We could see that reducing the dimensions to just 5, decreased the performance s
 
 ## Libriaries
 
-scikit-learn
-
-numpy
-
-pandas
-
-matplotlib
+* scikit-learn
+* numpy
+* pandas
+* matplotlib
