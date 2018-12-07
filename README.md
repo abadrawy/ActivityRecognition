@@ -1,4 +1,4 @@
-# Activity Recognition Using Nerual Networks and SVMs
+# Activity Recognition Using Neural Networks and SVMs
 Built two classifiers, a Nerual network classifier and an SVM classifer, that determine the physical activity of a human based on the readings of multiple smartphone sensors.
 
 ## Dataset
